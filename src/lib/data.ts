@@ -6,8 +6,8 @@ export const teachersData = [
   {
     id: 1,
     teacherId: "1234567890",
-    name: "John Doe",
-    email: "john@doe.com",
+    name: "Jules MUKADI",
+    email: "jules@bmania.com",
     photo:
       "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",

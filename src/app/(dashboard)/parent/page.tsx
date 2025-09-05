@@ -1,6 +1,21 @@
+import Annoucements from "@/components/Annoucements"
+import BigCalendar from "@/components/BigCalendar"
+
 const ParentPage = () => {
   return (
-    <div>ParentPage</div>
+    <div className="p-4 flex gap-4 flex-col md:flex-row">
+            {/* LEFT */}
+            <div className="w-full xl:w-2/3">
+                <div className="h-full bg-white p-4 rounded-md">
+                    <h1>Schedule (Jules MUKADI)</h1>
+                    <BigCalendar />
+                </div>
+            </div>
+            {/* RIGHT */}
+            <div className="w-full xl:w-1/3 flex flex-col gap-8">
+                <Annoucements />
+            </div>
+        </div>
   )
 }
 
