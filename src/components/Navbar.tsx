@@ -2,7 +2,7 @@ import { Bell, MessageSquareText, Search } from "lucide-react"
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between p-4 bg-white">
+        <div className="flex items-center justify-between p-4 bg-white border-b border-zinc-950/5">
             {/* SEARCH BAR */}
             <div className="hidden md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-zinc-300 px-2">
                 <Search />
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <span className="text-[10px] text-zinc-500">Admin</span>
                 </div>
 
-                <img src="/avatar.png" alt="" width={36} height={36} className="rounded-full" />
+                <img src="/avatar.webp" alt="" width={36} height={36} className="rounded-full" />
             </div>
         </div>
     )

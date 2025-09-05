@@ -12,6 +12,11 @@ import {
   LogOut,
   Clipboard,
   CheckSquare,
+  MessageCircle,
+  CalendarCheck,
+  BookOpenCheck,
+  PcCase,
+  UserRound,
 } from "lucide-react";
 
 const menuItems = [
@@ -37,7 +42,7 @@ const menuItems = [
         visible: ["admin", "teacher"] 
       },
       { 
-        icon: Users, 
+        icon: UserRound, 
         label: "Parents", 
         href: "/list/parents", 
         visible: ["admin", "teacher"] 
@@ -61,13 +66,13 @@ const menuItems = [
         visible: ["admin", "teacher"] 
       },
       { 
-        icon: CheckSquare, 
+        icon: BookOpenCheck, 
         label: "Exams", 
         href: "/list/exams", 
         visible: ["admin", "teacher", "student", "parent"] 
       },
       { 
-        icon: FileText, 
+        icon: PcCase, 
         label: "Assignments", 
         href: "/list/assignments", 
         visible: ["admin", "teacher", "student", "parent"] 
@@ -79,7 +84,7 @@ const menuItems = [
         visible: ["admin", "teacher", "student", "parent"] 
       },
       { 
-        icon: Calendar, 
+        icon: CalendarCheck, 
         label: "Attendance", 
         href: "/list/attendance", 
         visible: ["admin", "teacher", "student", "parent"] 
@@ -91,7 +96,7 @@ const menuItems = [
         visible: ["admin", "teacher", "student", "parent"] 
       },
       { 
-        icon: Bell, 
+        icon: MessageCircle, 
         label: "Messages", 
         href: "/list/messages", 
         visible: ["admin", "teacher", "student", "parent"] 
